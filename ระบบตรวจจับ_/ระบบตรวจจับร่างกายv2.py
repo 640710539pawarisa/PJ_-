@@ -14,7 +14,7 @@ pose = mp_pose.Pose(static_image_mode=False, model_complexity=1)
 mp_draw = mp.solutions.drawing_utils  # ใช้สำหรับวาดเส้นเชื่อมจุดต่างๆ บนร่างกาย
 
 # ======= ส่วนที่ 3: เปิดกล้อง =======
-cap = cv2.VideoCapture(1)  # เปิดกล้อง webcam (ถ้าไม่ขึ้นภาพให้เปลี่ยนเป็น 1)
+cap = cv2.VideoCapture(0)  # เปิดกล้อง webcam (ถ้าไม่ขึ้นภาพให้เปลี่ยนเป็น 1)
 
 # ======= ส่วนที่ 4: ลูปหลักของโปรแกรม =======
 while True:
